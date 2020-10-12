@@ -1,119 +1,229 @@
 {
-  "posts": [
+  "user": [
     {
-      "userId": 1,
-      "id": 1,
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-
-    {
-      "userId": 1,
-      "id": 9,
-      "title": "nesciunt iure omnis dolorem tempora et accusantium",
-      "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
-    },
-    {
-      "userId": 1,
-      "id": 10,
-      "title": "optio molestias id quia eum",
-      "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      "id": "1",
+      "name": "David",
+      "email": "daivd@test.com",
+      "firstName": "david",
+      "lastName": "david",
+      "password": "123",
+      "role": "STUDENT",
+      "avatorId": "1",
+      "gender": "M",
+      "lastLoginAt": "01/01/2021"
     },
     {
-      "userId": 2,
-      "id": 11,
-      "title": "et ea vero quia laudantium autem",
-      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+      "id": "2",
+      "name": "David",
+      "email": "daivd@test.com",
+      "firstName": "david",
+      "lastName": "david",
+      "password": "123",
+      "role": "TEACHER",
+      "avatorId": "1",
+      "gender": "M",
+      "lastLoginAt": "01/01/2021"
     },
     {
-      "userId": 2,
-      "id": 12,
-      "title": "in quibusdam tempore odit est dolorem",
-      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
-    },
-    {
-      "userId": 2,
-      "id": 13,
-      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
-      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
-    },
-
-    {
-      "userId": 3,
-      "id": 21,
-      "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
-      "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+      "id": "3",
+      "name": "David",
+      "email": "daivd@test.com",
+      "firstName": "david",
+      "lastName": "david",
+      "password": "123",
+      "role": "ADMIN",
+      "avatorId": "1",
+      "gender": "M",
+      "lastLoginAt": "01/01/2021"
     }
   ],
-  "users": [
+  "avator": [
     {
-      "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
+      "id": "1",
+      "imageUrl": "123"
     },
     {
-      "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
+      "id": "2",
+      "imageUrl": "123"
     },
     {
-      "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "address": {
-        "street": "Douglas Extension",
-        "suite": "Suite 847",
-        "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
-      },
-      "phone": "1-463-123-4447",
-      "website": "ramiro.info",
-      "company": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
-      }
+      "id": "3",
+      "imageUrl": "123"
+    }
+  ],
+
+  "article": [
+    {
+      "id": "1",
+      "title": "《派對動物 Party Animals》試玩版瞬間上線玩家突破 6 萬人",
+      "content": "Steam平台上一個新派對遊戲《派對動物》的試玩版突然熱門了起來，線上人數峰值突破 6 萬人，比《糖豆人：終極淘汰賽》的線上峰值還高。大量的玩家湧入一度擠爆伺服器，官方正在加緊增加新的伺服器。",
+      "teacherId": "1",
+      "task.ids": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "title": "小米10",
+      "content": "小米10是小米科技於北京時間2020年2月13日14時在中國北京小米科技園發佈的智能手機系列。這一系列包含小米10、小米10 Pro、小米10青春版以及小米10至尊紀念版四款機型，為小米手機數字系列的第九代機型系列。其中，小米10和小米10 Pro兩款機型於本次發佈會發佈，小米10青春版於2020年4月27日舉辦的MIUI12發佈會中發佈，小米10至尊紀念版則於2020年8月11日舉辦的小米十周年主題紀念演講中發佈。",
+      "teacherId": "2",
+      "task.ids": ["3", "4"]
+    },
+    {
+      "id": "3",
+      "title": "iPhone 11",
+      "content": "iPhone 11是由蘋果公司設計和銷售的智能手機，為第13代iPhone系列智能手機之一，亦是iPhone XR的後繼機種。其在2019年9月10日於蘋果園區史蒂夫·喬布斯劇院由CEO蒂姆·庫克隨iPhone 11 Pro及iPhone 11 Pro Max一起發佈，並於2019年9月20日在世界大部分地區正式發售。其採用類似iPhone XR的玻璃配鋁金屬設計；具有6.1英吋Liquid Retina HD顯示器，配有Face ID；並採用由蘋果自家設計的A13仿生晶片，帶有第三代神經網絡引擎。機器能夠防濺、耐水及防塵，在最深2米的水下停留時間最長可達30分鐘。",
+      "teacherId": "3",
+      "task.ids": ["5", "6"]
+    }
+  ],
+  "task": [
+    {
+      "id": "1",
+      "title": "task1",
+      "description": "task1",
+      "gameModeId": "1",
+      "teacherId": "1",
+      "studentIds": ["1"],
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "title": "task2",
+      "description": "task2",
+      "gameModeId": "2",
+      "teacherId": "1",
+      "studentIds": ["2"],
+      "articleId": "1"
+    },
+    {
+      "id": "3",
+      "title": "task3",
+      "description": "task3",
+      "gameModeId": "1",
+      "teacherId": "2",
+      "studentIds": [],
+      "articleId": "2"
+    },
+    {
+      "id": "4",
+      "title": "task4",
+      "description": "task4",
+      "gameModeId": "2",
+      "teacherId": "2",
+      "articleId": "2"
+    },
+    {
+      "id": "5",
+      "title": "task5",
+      "description": "task5",
+      "gameModeId": "1",
+      "teacherId": "3",
+      "articleId": "3"
+    },
+    {
+      "id": "6",
+      "title": "task6",
+      "description": "task6",
+      "gameModeId": "2",
+      "teacherId": "3",
+      "articleId": "3"
+    }
+  ],
+  "record": [
+    {
+      "id": "1",
+      "studentId": "1",
+      "taskId": "1",
+      "score": "100",
+      "combo": "2",
+      "usedTime": 10.25,
+      "speed": "10.25",
+      "isFinished": true,
+      "gameModeId": "1"
+    },
+    {
+      "id": "2",
+      "studentId": "2",
+      "taskId": "4",
+      "score": "100",
+      "combo": "2",
+      "usedTime": 10.25,
+      "speed": "10.25",
+      "isFinished": false,
+      "gameModeId": "2"
+    }
+  ],
+  "gameMode": [
+    {
+      "id": "1",
+      "tasksIds": ["1", "3", "5"],
+      "recordIds": ["1"],
+      "type": "NORMAL",
+      "condition": "",
+      "conditionId": "1"
+    },
+    {
+      "id": "2",
+      "tasksIds": ["2", "4", "6"],
+      "recordIds": ["2"],
+      "type": "FINISHED_PERCENTAGE",
+      "conditionId": "2"
+    }
+  ],
+  "gameModeCondition": [
+    {
+      "id": "1",
+      "gameModeId": "1",
+      "finishedPercentage": 100,
+      "retryTimes": 5,
+      "timeLimit": 120,
+      "minimumSpeedLimit": 10
+    },
+    {
+      "id": "2",
+      "gameModeId": "2",
+      "finishedPercentage": 20,
+      "retryTimes": 2,
+      "timeLimit": 120,
+      "minimumSpeedLimit": 10
+    }
+  ],
+  "student": [
+    {
+      "id": "1",
+      "userId": "1",
+      "code": "13001",
+      "recordIds": ["1"],
+      "taskIds": ["1"]
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "code": "13002",
+      "recordIds": ["2"],
+      "taskIds": ["2"]
+    }
+  ],
+  "teacher": [
+    {
+      "id": "1",
+      "userId": "",
+      "code": "007",
+      "articleIds": ["1"],
+      "taskIds": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "userId": "",
+      "code": "008",
+      "articleIds": ["2"],
+      "taskIds": ["3", "4"]
+    },
+    {
+      "id": "3",
+      "userId": "",
+      "code": "009",
+      "articleIds": ["3"],
+      "taskIds": ["5", "6"]
     }
   ]
 }
